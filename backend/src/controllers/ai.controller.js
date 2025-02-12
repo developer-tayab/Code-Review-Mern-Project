@@ -6,7 +6,7 @@ const getReview = async (req, res) => {
     let { code } = req.body;
     if (!code) return res.status(400).json({ message: "Code is required" });
     const response = await generateContent(code);
-    console.log(response)
+    // console.log(response)
     return res.status(200).json({ response });
 
   } catch (error) {
