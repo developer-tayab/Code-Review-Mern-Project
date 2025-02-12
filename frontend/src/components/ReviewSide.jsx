@@ -5,7 +5,7 @@ import "highlight.js/styles/github-dark.css";
 
 export default function ReviewSide({ review }) {
   return (
-    <div className="overflow-auto w-full py-5 px-3">
+    <div className="overflow-auto w-full h-screen py-5 px-3">
       <p className="bg-green-400 text-black inline-block py-1 text-sm font-bold px-3 rounded-md shadow">
         Here is the review of your code and improvements!
       </p>
